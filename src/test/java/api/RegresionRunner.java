@@ -6,7 +6,7 @@ public class RegresionRunner {
 
     @Karate.Test
     Karate regresionRunner() {
-        return Karate.run("api").tags("regresion").relativeTo(getClass());
+        return Karate.run("classpath:api").tags("regression").relativeTo(getClass());
     }
 
 }

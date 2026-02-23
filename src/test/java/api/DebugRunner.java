@@ -6,7 +6,7 @@ public class DebugRunner {
 
     @Karate.Test
     Karate debugRunner(){
-        return Karate.run("api").tags("debug").relativeTo(getClass());
+        return Karate.run("classpath:api").tags("debug").relativeTo(getClass());
     }
 
 }
