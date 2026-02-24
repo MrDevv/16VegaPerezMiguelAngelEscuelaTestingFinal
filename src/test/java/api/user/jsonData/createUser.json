@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "username": "mvegape",
+    "firstName": "Miguel",
+    "lastName": "Vega Perez",
+    "email": "miguelvega@gmail.com",
+    "password": "12345",
+    "phone": "982110341",
+    "userStatus": 1
+  },
+  {
+    "id": 0,
+    "username": "sramirezm",
+    "firstName": "Sarah",
+    "lastName": "Ramirez",
+    "email": "sara@gmail.com",
+    "password": "54321",
+    "phone": "930212340",
+    "userStatus": 1
+  },
+  {
+    "id": 0,
+    "username": "tom",
+    "firstName": "Tomoe",
+    "lastName": "Tomoe",
+    "email": "tom@gmail.com",
+    "password": "4567",
+    "phone": "912839123",
+    "userStatus": 0
+  }
+]

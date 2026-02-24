@@ -4,7 +4,7 @@ Feature: Busqueda de orden de compra
   Background:
     * url baseURL
 
-  @happyPath @debug
+  @happyPath
   Scenario: Buscar orden de compra por id
     * def orderCreated = call read('classpath:api/store/orders/store-order-create.feature@createOrder')
 
